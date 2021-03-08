@@ -22,3 +22,4 @@ function nombrepremier(nombre) {
 
 
 console.log(sommenombrespremiers(1,0));
+console.log(sommenombrespremiers(2,13));

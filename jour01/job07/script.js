@@ -41,7 +41,11 @@ function jourtravaille(date){
     }
     return console.log("Oui, " + day + " " + months[month -1] + " " + year + " est un jour travaillé.")
 }
-date = new Date('2021/03/14');
+date = new Date('2020/12/25');
 jourtravaille(date)
+date1 = new Date('2021/11/25');
+jourtravaille(date1)
+date1 = new Date('2021/03/14');
+jourtravaille(date1)
 
 	
