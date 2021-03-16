@@ -9,10 +9,10 @@
     <title>Document</title>
 </head>
 <body>
-    <button> <a href="inscription.php">
+    <button> <a href="register.php">
         Inscription</a>
     </button>
-    <button> <a href="connexion.php">
+    <button> <a href="login.php">
         Connexion</a>
     </button>
 </body>

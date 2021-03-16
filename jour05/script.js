@@ -5,7 +5,7 @@ $('#button').click( function (){
     var email = $('#mail').val(); 
     var pass = $('#pass').val(); 
     $.ajax({
-        url: "inscription.php",
+        url: "register.php",
         type: "POST",
         data: {nom : nom , prenom : prenom , mail: email, pass : pass},
         dataType: "text",

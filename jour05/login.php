@@ -1,4 +1,4 @@
-<form action="connexion.php" method="POST">
+<form action="login.php" method="POST">
     <label for="email"> Login : </label>
     <input type="email" name="email" id="email">
     </br>
