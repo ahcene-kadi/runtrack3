@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-    <script  type="text/javascript" src="script.js" async="true"></script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>job02</title>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js" async="true"></script>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>job02</title>
 </head>
+
 <body>
 
-    <form method="post" >
+	<form method="post">
 		<input id="id" type="text" name="id" placeholder="id">
 		<input id="nom" type="text" name="nom" placeholder="nom">
-		
+
 		<select id="type" name="type">
 			<option value="none">non précisé</option>
 			<option value="Fire">feu</option>
@@ -34,10 +36,11 @@
 			<option value="Ghost">fantome</option>
 			<option value="Dragon">dragon</option>
 		</select>
-		
+
 	</form>
-	    <button  value="filtrer">filtrer</button>
-	    <section id="poke"></section>
+	<button value="filtrer">filtrer</button>
+	<section id="poke"></section>
 
 </body>
+
 </html>
